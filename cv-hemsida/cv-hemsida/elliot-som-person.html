@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elliot som person - Mitt CV</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👨‍💻%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Elliot Axelsson CV</h1>
+        <nav-bar></nav-bar>
+      </header>
+
+      <main>
+        <!-- Övre bandet: rubrik + intro -->
+        <section>
+          <h2>Elliot som person</h2>
+          <p>Här berättar jag mer om mina intressen och mitt engagemang.</p>
+        </section>
+
+        <!-- Tre kort i rad: Handboll, Discgolf, Träning -->
+        <section class="person-cards">
+          <article class="card">
+            <h3>Handboll</h3>
+            <figure>
+              <img src="images/handboll.png" alt="Handbollsplan" />
+              <figcaption>skiss av handbollsplan</figcaption>
+            </figure>
+            <p>
+              Jag har varit aktiv inom handbollen i hela mitt liv. Från
+              knattelden, via elitserie- och landslagsspel, till tränare och
+              numera styrelseordförande. Att vara aktiv i en ideell förening ger
+              mig mycket glädje och energi.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Discgolf</h3>
+            <figure>
+              <img src="images/discgolf.png" alt="Elliot spelar discgolf" />
+              <figcaption>skiss av ett birdiekast</figcaption>
+            </figure>
+            <p>
+              Discgolf är en av mina nyare passioner. Jag uppskattar den
+              kombination av teknik, strategi och friluftsliv som sporten
+              erbjuder. Det är också ett fantastiskt sätt att umgås med vänner
+              och njuta av naturen.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Träning</h3>
+            <figure>
+              <img src="images/gym.png" alt="Elliot tränar" />
+              <figcaption>styrketräning</figcaption>
+            </figure>
+            <p>
+              Träning överlag är en viktig del av mitt liv. Jag gillar att hålla
+              mig aktiv genom olika former av träning, från gympass till löpning
+              och gruppträning. Det hjälper mig att hålla fokus och energi både
+              i vardagen och i mina studier.
+            </p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Elliot Axelsson</p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="app.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
