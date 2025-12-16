@@ -17,40 +17,36 @@
     />
   </head>
   <body>
-    <header>
-      <h1>Elliot Axelsson</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Hem</a></li>
-          <li><a href="om-mig.html">Om mig</a></li>
-          <li><a href="projekt.html">Projekt</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="app">
+      <header>
+        <h1>Elliot Axelsson</h1>
+        <nav-bar></nav-bar>
+      </header>
+      <main>
+        <section>
+          <h2>Välkommen till mitt interaktiva CV</h2>
+          <p>
+            Jag är projektledare med mångårig erfarenhet från samhällsbyggnad
+            och anläggningsbranschen, och med aktuell utbildning inom
+            IT-projektledning och digital transformation. Detta ger mig en unik
+            kombination av praktisk kompetens och framtidsfokus, perfekt för
+            projekt som förenar teknik, samhällsutveckling och innovation.
+          </p>
+          <img
+            src="images/cv-elliot.jpg"
+            alt="Profilbild"
+            class="profile-image"
+          />
+        </section>
+      </main>
 
-    <main>
-      <section>
-        <h2>Välkommen till mitt interaktiva CV</h2>
-        <p>
-          Jag är projektledare med mångårig erfarenhet från samhällsbyggnad och
-          anläggningsbranschen, och med aktuell utbildning inom
-          IT-projektledning och digital transformation. Detta ger mig en unik
-          kombination av praktisk kompetens och framtidsfokus, perfekt för
-          projekt som förenar teknik, samhällsutveckling och innovation.
-        </p>
-        <img
-          src="images/cv-elliot.jpg"
-          alt="Profilbild"
-          class="profile-image"
-        />
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2025 Elliot Axelsson</p>
-    </footer>
-
+      <footer>
+        <p>&copy; 2025 Elliot Axelsson</p>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="components/navbar.js"></script>
+<script src="app.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

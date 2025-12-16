@@ -17,73 +17,72 @@
     />
   </head>
   <body>
-    <header>
-      <h1>Elliot Axelsson CV</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Hem</a></li>
-          <li><a href="om-mig.html">Om mig</a></li>
-          <li><a href="projekt.html">Projekt</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="app">
+      <header>
+        <h1>Elliot Axelsson CV</h1>
+        <nav-bar></nav-bar>
+      </header>
 
-    <main>
-      <!-- Övre bandet: rubrik + intro -->
-      <section>
-        <h2>Elliot som person</h2>
-        <p>Här berättar jag mer om mina intressen och mitt engagemang.</p>
-      </section>
+      <main>
+        <!-- Övre bandet: rubrik + intro -->
+        <section>
+          <h2>Elliot som person</h2>
+          <p>Här berättar jag mer om mina intressen och mitt engagemang.</p>
+        </section>
 
-      <!-- Tre kort i rad: Handboll, Discgolf, Träning -->
-      <section class="person-cards">
-        <article class="card">
-          <h3>Handboll</h3>
-          <figure>
-            <img src="images/handboll.png" alt="Handbollsplan" />
-            <figcaption>skiss av handbollsplan</figcaption>
-          </figure>
-          <p>
-            Jag har varit aktiv inom handbollen i hela mitt liv. Från
-            knattelden, via elitserie- och landslagsspel, till tränare och
-            numera styrelseordförande. Att vara aktiv i en ideell förening ger
-            mig mycket glädje och energi.
-          </p>
-        </article>
+        <!-- Tre kort i rad: Handboll, Discgolf, Träning -->
+        <section class="person-cards">
+          <article class="card">
+            <h3>Handboll</h3>
+            <figure>
+              <img src="images/handboll.png" alt="Handbollsplan" />
+              <figcaption>skiss av handbollsplan</figcaption>
+            </figure>
+            <p>
+              Jag har varit aktiv inom handbollen i hela mitt liv. Från
+              knattelden, via elitserie- och landslagsspel, till tränare och
+              numera styrelseordförande. Att vara aktiv i en ideell förening ger
+              mig mycket glädje och energi.
+            </p>
+          </article>
 
-        <article class="card">
-          <h3>Discgolf</h3>
-          <figure>
-            <img src="images/discgolf.png" alt="Elliot spelar discgolf" />
-            <figcaption>skiss av ett birdiekast</figcaption>
-          </figure>
-          <p>
-            Discgolf är en av mina nyare passioner. Jag uppskattar den
-            kombination av teknik, strategi och friluftsliv som sporten
-            erbjuder. Det är också ett fantastiskt sätt att umgås med vänner och
-            njuta av naturen.
-          </p>
-        </article>
+          <article class="card">
+            <h3>Discgolf</h3>
+            <figure>
+              <img src="images/discgolf.png" alt="Elliot spelar discgolf" />
+              <figcaption>skiss av ett birdiekast</figcaption>
+            </figure>
+            <p>
+              Discgolf är en av mina nyare passioner. Jag uppskattar den
+              kombination av teknik, strategi och friluftsliv som sporten
+              erbjuder. Det är också ett fantastiskt sätt att umgås med vänner
+              och njuta av naturen.
+            </p>
+          </article>
 
-        <article class="card">
-          <h3>Träning</h3>
-          <figure>
-            <img src="images/gym.png" alt="Elliot tränar" />
-            <figcaption>styrketräning</figcaption>
-          </figure>
-          <p>
-            Träning överlag är en viktig del av mitt liv. Jag gillar att hålla
-            mig aktiv genom olika former av träning, från gympass till löpning
-            och gruppträning. Det hjälper mig att hålla fokus och energi både i
-            vardagen och i mina studier.
-          </p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2025 Elliot Axelsson</p>
-    </footer>
+          <article class="card">
+            <h3>Träning</h3>
+            <figure>
+              <img src="images/gym.png" alt="Elliot tränar" />
+              <figcaption>styrketräning</figcaption>
+            </figure>
+            <p>
+              Träning överlag är en viktig del av mitt liv. Jag gillar att hålla
+              mig aktiv genom olika former av träning, från gympass till löpning
+              och gruppträning. Det hjälper mig att hålla fokus och energi både
+              i vardagen och i mina studier.
+            </p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Elliot Axelsson</p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="app.js"></script>
 
     <script src="js/main.js"></script>
   </body>
